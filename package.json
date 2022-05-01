@@ -1,0 +1,12 @@
+{
+  "name": "Electron",
+  "version": "1.0.0",
+  "description": "A NodeJS and Salesforce Integration test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/mariojgmaster/Salesforce_Electron_Integration",
+  "author": "Mario Oliveira",
+  "license": "MIT"
+}
