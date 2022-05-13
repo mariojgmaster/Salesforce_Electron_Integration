@@ -5,13 +5,14 @@
   "main": "electron/index.js",
   "scripts": {
     "dev_electron": "electron .",
-    "dev_node": "node server/index.js"
+    "dev_node": "nodemon server/index.js"
   },
   "repository": "https://github.com/mariojgmaster/Salesforce_Electron_Integration",
   "author": "Mario Oliveira",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^18.2.0"
+    "electron": "^18.2.0",
+    "nodemon": "^2.0.16"
   },
   "dependencies": {
     "dotenv": "^16.0.0",

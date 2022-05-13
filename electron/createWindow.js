@@ -23,8 +23,8 @@ const createWindow = () => {
         fullscreenable: false
     });
     
-    // win.loadURL('http://localhost:3001/login')
-    win.loadFile(`${__dirname}/src/index.html`);
+    win.loadURL('http://localhost:3002/login')
+    // win.loadFile(`${__dirname}/src/index.html`);
 
     return win
 }

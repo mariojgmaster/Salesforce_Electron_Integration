@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Primeiro Projeto</title>
-	<script src="./script.js"></script>
-	<style>
-		* {
-			margin: 0px;
-			padding: 0px;
-		}
-		body {
-			width: calc(100vw - 30px);
-			height: calc(100vh - 30px);
-			border: 15px dashed red;;
-		}
-	</style>
-  </head>
-  <body>
-    <h1>Bem-vindo ao projeto.</h1>
-	<button onclick="closeWindow()" id="quit-btn">Fechar</button>
-  </body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Primeiro Projeto</title>
+		<script src="./script.js"></script>
+		<link rel="stylesheet" href="./topWindow.css">
+	</head>
+	<body>
+		<div id="container">
+			<nav>
+				<div id="titleShown"></div>
+				<!-- <div id="inter-buttons"></div> -->
+				<div id="buttons">
+					<div id="close">
+						<span>&times;</span>
+					</div>
+					<div id="maximize">
+						<span>+</span>
+					</div>
+					<div id="minimize">
+						<span>-</span>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<main>
+			<header></header>
+			<section>
+				<h1>Bem-vindo ao projeto.</h1>
+			</section>
+		</main>
+	</body>
 </html>

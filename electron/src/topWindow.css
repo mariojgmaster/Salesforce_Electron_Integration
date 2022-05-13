@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    -webkit-app-region: drag;
+}
+
+body {
+    -webkit-app-region: drag;
+}
+
+#container {
+    position: fixed;
+    display: block;
+    float: right;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    /* -webkit-app-region: no-drag; */
+    -webkit-app-region: drag;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    -webkit-app-region: drag;
+    cursor: move;
+}
+
+#buttons {
+    height: 100%;
+}
+
+#minimize, #maximize, #close {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    float: right;
+    margin: 0;
+    cursor: default;
+    color: aquamarine;
+    background-color: black;
+}
+  
+#titleShown{
+    display: block;
+    float: left;
+    height: 100%;
+    max-width: 30%;
+    padding-left: .5em;
+}
